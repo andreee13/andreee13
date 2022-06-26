@@ -1,1 +1,66 @@
-{"assets/animations/3d_geometric.json":["assets/animations/3d_geometric.json"],"assets/animations/3d_text.json":["assets/animations/3d_text.json"],"assets/animations/breathing_shape.json":["assets/animations/breathing_shape.json"],"assets/animations/contact.json":["assets/animations/contact.json"],"assets/animations/done.json":["assets/animations/done.json"],"assets/animations/logo_abstract.json":["assets/animations/logo_abstract.json"],"assets/animations/new_logo_abstract.json":["assets/animations/new_logo_abstract.json"],"assets/animations/scanning.json":["assets/animations/scanning.json"],"assets/animations/scroll_arrow.json":["assets/animations/scroll_arrow.json"],"assets/fonts/SFProDisplay-Black.ttf":["assets/fonts/SFProDisplay-Black.ttf"],"assets/fonts/SFProDisplay-Bold.ttf":["assets/fonts/SFProDisplay-Bold.ttf"],"assets/fonts/SFProDisplay-Heavy.ttf":["assets/fonts/SFProDisplay-Heavy.ttf"],"assets/fonts/SFProDisplay-Light.ttf":["assets/fonts/SFProDisplay-Light.ttf"],"assets/fonts/SFProDisplay-Medium.ttf":["assets/fonts/SFProDisplay-Medium.ttf"],"assets/fonts/SFProDisplay-Regular.ttf":["assets/fonts/SFProDisplay-Regular.ttf"],"assets/fonts/SFProDisplay-Semibold.ttf":["assets/fonts/SFProDisplay-Semibold.ttf"],"assets/fonts/SFProDisplay-Thin.ttf":["assets/fonts/SFProDisplay-Thin.ttf"],"assets/fonts/SFProDisplay-Ultralight.ttf":["assets/fonts/SFProDisplay-Ultralight.ttf"],"assets/images/Icon-192.png":["assets/images/Icon-192.png"],"assets/images/Icon-512.png":["assets/images/Icon-512.png"],"assets/images/Instagram_icon.png":["assets/images/Instagram_icon.png"],"assets/images/abstract_1.png":["assets/images/abstract_1.png"],"assets/images/abstract_1.svg":["assets/images/abstract_1.svg"],"assets/images/abstract_2.png":["assets/images/abstract_2.png"],"assets/images/appstore-full.png":["assets/images/appstore-full.png"],"assets/images/cccircular.svg":["assets/images/cccircular.svg"],"assets/images/ethereum.png":["assets/images/ethereum.png"],"assets/images/metamask.png":["assets/images/metamask.png"],"assets/images/polygon.png":["assets/images/polygon.png"],"assets/images/shape.gif":["assets/images/shape.gif"],"assets/images/walletconnect.png":["assets/images/walletconnect.png"],"packages/cupertino_icons/assets/CupertinoIcons.ttf":["packages/cupertino_icons/assets/CupertinoIcons.ttf"],"packages/glass_kit/assets/noise.png":["packages/glass_kit/assets/noise.png"],"packages/ionicons/fonts/Ionicons.ttf":["packages/ionicons/fonts/Ionicons.ttf"]}
+{
+  "assets/animations/3d_geometric.json": [
+    "assets/animations/3d_geometric.json"
+  ],
+  "assets/animations/3d_text.json": ["assets/animations/3d_text.json"],
+  "assets/animations/breathing_shape.json": [
+    "assets/animations/breathing_shape.json"
+  ],
+  "assets/animations/contact.json": ["assets/animations/contact.json"],
+  "assets/animations/done.json": ["assets/animations/done.json"],
+  "assets/animations/logo_abstract.json": [
+    "assets/animations/logo_abstract.json"
+  ],
+  "assets/animations/new_logo_abstract.json": [
+    "assets/animations/new_logo_abstract.json"
+  ],
+  "assets/animations/scanning.json": ["assets/animations/scanning.json"],
+  "assets/animations/scroll_arrow.json": [
+    "assets/animations/scroll_arrow.json"
+  ],
+  "assets/fonts/SFProDisplay-Black.ttf": [
+    "assets/fonts/SFProDisplay-Black.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Bold.ttf": ["assets/fonts/SFProDisplay-Bold.ttf"],
+  "assets/fonts/SFProDisplay-Heavy.ttf": [
+    "assets/fonts/SFProDisplay-Heavy.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Light.ttf": [
+    "assets/fonts/SFProDisplay-Light.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Medium.ttf": [
+    "assets/fonts/SFProDisplay-Medium.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Regular.ttf": [
+    "assets/fonts/SFProDisplay-Regular.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Semibold.ttf": [
+    "assets/fonts/SFProDisplay-Semibold.ttf"
+  ],
+  "assets/fonts/SFProDisplay-Thin.ttf": ["assets/fonts/SFProDisplay-Thin.ttf"],
+  "assets/fonts/SFProDisplay-Ultralight.ttf": [
+    "assets/fonts/SFProDisplay-Ultralight.ttf"
+  ],
+  "assets/images/Icon-192.png": ["assets/assets/images/Icon-192.png"],
+  "assets/images/Icon-512.png": ["assets/assets/images/Icon-512.png"],
+  "assets/images/Instagram_icon.png": ["assets/assets/images/Instagram_icon.png"],
+  "assets/images/abstract_1.png": ["assets/assets/images/abstract_1.png"],
+  "assets/images/abstract_1.svg": ["assets/assets/images/abstract_1.svg"],
+  "assets/images/abstract_2.png": ["assets/assets/images/abstract_2.png"],
+  "assets/images/appstore-full.png": ["assets/assets/images/appstore-full.png"],
+  "assets/images/cccircular.svg": ["assets/assets/images/cccircular.svg"],
+  "assets/images/ethereum.png": ["assets/assets/images/ethereum.png"],
+  "assets/images/metamask.png": ["assets/assets/images/metamask.png"],
+  "assets/images/polygon.png": ["assets/assets/images/polygon.png"],
+  "assets/images/shape.gif": ["assets/assets/images/shape.gif"],
+  "assets/images/walletconnect.png": ["assets/assets/images/walletconnect.png"],
+  "packages/cupertino_icons/assets/CupertinoIcons.ttf": [
+    "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+  ],
+  "packages/glass_kit/assets/noise.png": [
+    "packages/glass_kit/assets/noise.png"
+  ],
+  "packages/ionicons/fonts/Ionicons.ttf": [
+    "packages/ionicons/fonts/Ionicons.ttf"
+  ]
+}
