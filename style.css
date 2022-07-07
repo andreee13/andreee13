@@ -1,0 +1,85 @@
+body {
+  inset: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: black;
+}
+progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 2px;
+  margin-top: 128px;
+  width: 160%;
+  transform: translate(-50%, -50%);
+}
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+  background-color: #393939;
+}
+progress::-webkit-progress-value {
+  background-color: white !important;
+}
+/* For Firefox */
+progress {
+  background-color: #393939;
+}
+progress::-moz-progress-bar {
+  background-color: white !important;
+}
+/* For IE10 */
+progress {
+  background-color: #393939;
+}
+progress {
+  background-color: white;
+}
+.canvas3d {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+  z-index: 1;
+}
+.centerDiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#loading {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  animation: 1s ease-in-out 0s infinite alternate breathe;
+  opacity: 0.66;
+  transition: opacity 0.4s;
+}
+#loading.step_1 {
+  opacity: 1;
+}
+#loading.step_2 {
+  animation: 0.33s ease-in-out 0s 1 forwards zoom;
+  opacity: 0;
+}
+@keyframes breathe {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.95);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(10);
+  }
+}
