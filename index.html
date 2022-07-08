@@ -1,1 +1,106 @@
-<!DOCTYPE html><html><head><base href="/" /><meta charset="UTF-8" /><meta content="IE=Edge" http-equiv="X-UA-Compatible" /><meta name="description" content="Andrea's portfolio" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black" /><meta name="apple-mobile-web-app-title" content="portfolio" /><link rel="apple-touch-icon" href="icons/Icon-192.png" /><link rel="icon" type="image/x-icon" href="favicon.ico" /><title>Loading...</title><link rel="manifest" href="manifest.json" /><link rel="stylesheet" href="./style.css" /><script src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js" type="application/javascript" defer ></script><script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.6.5/dist/umd/index.min.js" type="application/javascript" defer ></script><script type="module" defer>import{ Application} from "./canvas/runtime.js"; const canvas=document.getElementById("canvas3d"); const app=new Application(canvas); app.load("https://prod.spline.design/UhBrhSa1I1-K2168/scene.splinecode"); </script><script>var serviceWorkerVersion='1691148087'; </script><script src="flutter.js" defer></script></head><body><canvas class="canvas3d" id="canvas3d"></canvas><div class="centerDiv"><div id="loading"><img src="icons/Icon-192.png" alt="Loading" /></div><progress id="progressBar" max="100"></progress></div><script>var current_progress=0, step=0.5, status=0; var bar=document.getElementById("progressBar"); setInterval(()=>{ if (status==1){ current_progress=33;} else if (status==2){ current_progress=66;} else if (status==3){ bar.value=100; clearInterval(this); return;} bar.value=current_progress; current_progress +=step;}, 10); window.addEventListener("load", (ev)=>{ const loading=document.getElementById("loading"); _flutter.loader .loadEntrypoint({ serviceWorker:{ serviceWorkerVersion: serviceWorkerVersion,},}) .then((engineInitializer)=>{ loading.classList.add("step_1"); status=1; return engineInitializer.initializeEngine();}) .then((appRunner)=>{ status=2; loading.classList.add("step_2"); return appRunner.runApp();}) .then((app)=>{ status=3; window.setTimeout(()=>loading.remove(), 200);});}); </script><noscript>JavaScript is not supported by your browser</noscript></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/andreee13/" />
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Andrea's portfolio" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="portfolio" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Loading...</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js"
+      type="application/javascript"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.6.5/dist/umd/index.min.js"
+      type="application/javascript"
+      defer
+    ></script>
+    <script type="module" defer>
+      import { Application } from "./canvas/runtime.js";
+      new Application(document.getElementById("canvas3d")).load(
+        "./canvas/scene.splinecode"
+      );
+    </script>
+    <script>
+      var serviceWorkerVersion = '4229836796';
+    </script>
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <canvas class="canvas3d" id="canvas3d"></canvas>
+    <div class="centerDiv" id="centerDiv">
+      <div id="loading">
+        <img src="icons/Icon-192.png" alt="Loading" />
+      </div>
+      <progress id="progressBar" max="100"></progress>
+      <noscript style="color: white"
+        >JavaScript is not supported by your browser</noscript
+      >
+    </div>
+    <script>
+      let current_progress = 0,
+        step = 0.1,
+        status = 0;
+      const bar = document.getElementById("progressBar"),
+        loading = document.getElementById("loading");
+      setInterval(() => {
+        if (status == 0) {
+          if (current_progress < 33) {
+            current_progress += step;
+          } else {
+            current_progress = 33;
+          }
+        } else if (status == 1) {
+          if (current_progress < 66) {
+            current_progress += step;
+          } else {
+            current_progress = 66;
+          }
+        } else if (status == 2) {
+          if (current_progress < 90) {
+            current_progress += step;
+          } else {
+            current_progress = 90;
+          }
+        } else if (status == 3) {
+          current_progress = 100;
+          clearInterval(this);
+        }
+        bar.value = current_progress;
+      }, 10);
+      window.addEventListener("load", (ev) => {
+        _flutter.loader
+          .loadEntrypoint({
+            serviceWorker: {
+              serviceWorkerVersion: serviceWorkerVersion,
+            },
+          })
+          .then((engineInitializer) => {
+            status = 1;
+            loading.classList.add("step_1");
+            return engineInitializer.initializeEngine();
+          })
+          .then((appRunner) => {
+            status = 2;
+            loading.classList.add("step_2");
+            return appRunner.runApp();
+          })
+          .then((app) => {
+            status = 3;
+            window.setTimeout(() => {
+              loading.remove();
+              document.getElementById("centerDiv").remove();
+            }, 200);
+          });
+      });
+    </script>
+  </body>
+</html>
