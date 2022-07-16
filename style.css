@@ -36,13 +36,27 @@ progress {
 progress {
   background-color: white;
 }
-.canvas3d {
+#canvas3d {
   display: none;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0.4);
   z-index: 1;
+}
+#canvas3d.scaleIn {
+  display: block;
+  animation: 1s ease-in-out 0s 1 scaleIn;
+}
+@keyframes scaleIn {
+  0% {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.4);
+    opacity: 1;
+  }
 }
 .centerDiv {
   position: absolute;
