@@ -5,10 +5,9 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "009c9e65172e010890f7f65fde438006",
 "favicon.ico": "9bfd37b8868ab192f1977371a9f7b974",
-"index.html": "b9f62b035c17cc1ed15db2f1b95b1106",
-"/": "b9f62b035c17cc1ed15db2f1b95b1106",
-"main.dart.js": "833284c329fc975869c3a116d2e50415",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"index.html": "5701f2d716bbc06382ac369338e78155",
+"/": "5701f2d716bbc06382ac369338e78155",
+"main.dart.js": "1b2b584212d573c9877942f86ddb400d",
 "canvas/scene.splinecode": "d303c64082fadeec2de40c436f43d898",
 "canvas/runtime.js": "dc67568a4464584be1d7fa6d72e65f54",
 "icons/Icon-192.png": "20f1190649a4803e2daa0c63fc6776c2",
@@ -17,8 +16,8 @@ const RESOURCES = {
 "icons/Icon-512.png": "c7ae3ffe47872f863d49e87577ef956d",
 "style.css": "fde759d96789e9b374b3fd0858b30f9d",
 "manifest.json": "a27eb6bfc117bf5565492fd25706eb22",
-"assets/AssetManifest.json": "10bc0bca002cad3494ae4618b5da272d",
-"assets/NOTICES": "2d04889e9f2705890729c4ee2cd6bf8d",
+"assets/AssetManifest.json": "83683356719d2bd83d1738c9f4e5bfdd",
+"assets/NOTICES": "3fd8ad314157e1c08ce41cead134c44b",
 "assets/FontManifest.json": "3ca64090b9da4a7c0a3988ea3cda93fc",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/glass_kit/assets/noise.png": "86f22ae1a498bb8f0c39264f9c7c796c",
@@ -35,7 +34,13 @@ const RESOURCES = {
 "assets/assets/images/en.png": "e5ccb531b54405907ff8535848f668ba",
 "assets/assets/images/ethereum.png": "2214386a20472bc5fba9309f1a90645f",
 "assets/assets/images/polygon.png": "f84cc483cab9c1a320bdbc3bcda2ee97",
+"assets/assets/images/paperopoli_terminal/1.jpeg": "b80b6257a0e111cbb1a83996597cbb30",
+"assets/assets/images/paperopoli_terminal/6.jpeg": "22b7a8fbd1096cf25de4ba44394276d5",
+"assets/assets/images/paperopoli_terminal/4.jpeg": "2ce79812851e056cc7a60eb19036174a",
+"assets/assets/images/paperopoli_terminal/5.jpeg": "bd5f086cb7e737362133045c105f3cfb",
+"assets/assets/images/paperopoli_terminal/2.jpeg": "424b83d48c2a1ed2a0792deaf4c30059",
 "assets/assets/images/paperopoli_terminal/0.png": "842dcb77e7870ce9c26c22ec3fb55f26",
+"assets/assets/images/paperopoli_terminal/3.jpeg": "24104c15bafd34dbdfff9310acdae3c0",
 "assets/assets/images/chatty/4.png": "cbeda7144beca93fa1bbb69e395a7c75",
 "assets/assets/images/chatty/5.png": "bee52267d603b93473f98e87b9e058b5",
 "assets/assets/images/chatty/6.png": "ed19775990522c35fc6c5bfedd0cdd9e",
@@ -52,11 +57,7 @@ const RESOURCES = {
 "assets/assets/images/tidety/3.png": "ba080764056689917cc52387a2159c42",
 "assets/assets/images/tidety/1.png": "5cb34b4517e58df972a6d7e101aeeb29",
 "assets/assets/images/tidety/0.png": "0db6285175c6228b2d89ea5eab2a4a71",
-"assets/assets/animations/contact.json": "46633ffffef52f1895a761bebc316a9b",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/animations/contact.json": "46633ffffef52f1895a761bebc316a9b"
 };
 
 // The application shell files that are downloaded before a service worker can
