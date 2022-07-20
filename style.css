@@ -37,11 +37,12 @@ progress {
   background-color: white;
 }
 #canvas3d {
+  pointer-events: none;
   display: none;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) scale(0.4);
+  transform: translate(-50%, -50%) scale(0.35);
   z-index: 1;
 }
 #canvas3d.scaleIn {
@@ -54,7 +55,7 @@ progress {
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -50%) scale(0.4);
+    transform: translate(-50%, -50%) scale(0.35);
     opacity: 1;
   }
 }
