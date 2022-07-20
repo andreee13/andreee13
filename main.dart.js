@@ -70551,7 +70551,7 @@ var $async$$0=A.M(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:h=q.a
 A.aqo(h)
 p=q.b
-A.EL(J.Y1(A.lI().a)&&J.lq(p.c)?"new_project":"connect_wallet")
+A.EL(A.b(p.a,"_supported")&&J.Y1(A.lI().a)&&J.lq(p.c)?"new_project":"connect_wallet")
 o=A.ao8(B.y,A.iQ(0),0,B.aQ)
 n=t.l
 m=h.M(n).f
@@ -70560,7 +70560,7 @@ k=A.eX(null,A.c4(null,null,B.q,B.y,null,null,null,null,null,null,null,null,null)
 j=A.lN(B.hC,new A.akw(h),null)
 i=h.M(n).f
 n=h.M(n).f
-p=J.Y1(A.lI().a)&&J.lq(p.c)?new A.TB(null):new A.GS(p,new A.bm(!1,$.aQ()),null)
+p=A.b(p.a,"_supported")&&J.Y1(A.lI().a)&&J.lq(p.c)?new A.TB(null):new A.GS(p,new A.bm(!1,$.aQ()),null)
 s=2
 return A.N(A.aoX(8,A.eC(A.e_(B.aE,A.a([k,new A.dR(B.bo,null,null,j,null),A.dB(A.eC(p,i.a.b,n.a.b*0.5),null,null)],t.p),B.N,B.az),m.a.b,l.a.a),o).oC(0,h,t.z).bc(0,new A.akx(h),t.H),$async$$0)
 case 2:return A.P(null,r)}})
@@ -70586,11 +70586,13 @@ $1(a){this.a.c.sl(0,!1)
 return!1},
 $S:20}
 A.aky.prototype={
-$3(a,b,c){var s=null,r=b?B.j:s,q=J.Y1(A.lI().a)&&J.lq(this.a.c),p=t.g
-q=q?A.d7(a,B.ab,p).gN2():A.d7(a,B.ab,p).gKS()
-q=B.c.bg(A.a(q.toLowerCase().split(""),t.s),"\n")
-p=b?B.au:B.C
-return A.c4(s,A.da(q,s,s,s,s,s,s,s,A.eY(s,b?B.w:B.j,12,p,1.3,s),s,s,s),B.q,r,s,s,s,s,s,B.nD,s,s,s)},
+$3(a,b,c){var s,r=null,q=b?B.j:r,p=this.a
+p=A.b(p.a,"_supported")&&J.Y1(A.lI().a)&&J.lq(p.c)
+s=t.g
+p=p?A.d7(a,B.ab,s).gN2():A.d7(a,B.ab,s).gKS()
+p=B.c.bg(A.a(p.toLowerCase().split(""),t.s),"\n")
+s=b?B.au:B.C
+return A.c4(r,A.da(p,r,r,r,r,r,r,r,A.eY(r,b?B.w:B.j,12,s,1.3,r),r,r,r),B.q,q,r,r,r,r,r,B.nD,r,r,r)},
 $S:442}
 A.Ro.prototype={
 I(a,b){var s=null
