@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Andrea</h1>
 
-<h2 align="center">Check my portfolio 👉 https://andreee13.github.io/andreee13</h2>
-
 ![](https://komarev.com/ghpvc/?username=andreee13)
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=andreee13&show_icons=true&locale=en&layout=compact" alt="andreee13" /></p>
